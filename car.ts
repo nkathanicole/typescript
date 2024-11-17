@@ -1,4 +1,3 @@
-
 interface Vehicle {
     make: string;
     model: string;
@@ -7,7 +6,7 @@ interface Vehicle {
 }
 
 
-class Car implements Vehicle {
+class CarCar implements Vehicle {
     make: string;
     model: string;
     year: number;
@@ -26,7 +25,7 @@ class Car implements Vehicle {
 }
 
 
-const myCar = new Car("Toyota", "Camry", 2021);
+const myCarCar = new Car("Toyota", "Camry", 2021);
 
 
 myCar.start(); 
